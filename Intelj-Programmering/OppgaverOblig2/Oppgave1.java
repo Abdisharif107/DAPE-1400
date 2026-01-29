@@ -4,7 +4,7 @@ import static java.lang.Integer.parseInt;
 import static javax.swing.JOptionPane.*;
 
 public class Oppgave1 {
-    private static boolean i;
+    public static boolean i;
 
     public static void main(String[] args) {
         int NedreGrense = parseInt(showInputDialog("Skriv inn et tall"));

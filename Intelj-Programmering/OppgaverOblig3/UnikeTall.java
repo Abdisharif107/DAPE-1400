@@ -68,7 +68,7 @@ public class UnikeTall {
    /*  Metode som beregner og returnerer den gjennomstnittlige verdien
      (double-verdi) av tallene i arrayet.  */
 
-    private double GjennomsnittsTall(int[] innTall) {
+    private double GjennomsnittsTall(int [] innTall) {
         int i = 0;
         int Totall = 0;
         double Gjennomsnitt = 0.00;
@@ -97,7 +97,7 @@ public class UnikeTall {
         for (Integer Tall : TilfeldigTall) {
             Ut += (Tall + " ");
             i++;
-            if (i % 10 == 0) {
+            if (i % 8 == 0) {
                 Ut += "\n";
             }
         }

@@ -79,7 +79,7 @@ class Oppgave4{
         }
         double Sum = Tall1+Tall2+Tall3;
         Double Gjennomsnitt = Sum / 3;
-        String Ut = "Summene av tallene "+Tall1+Tall2+Tall3+" er "+Sum+"\n"+
+        String Ut = "Summene av tallene "+Tall1+" "+Tall2+" "+Tall3+" er "+Sum+"\n"+
                 "Gjennomsnitte av tallene er "+Gjennomsnitt;
         System.out.print(Ut) ;
         showMessageDialog(null,Ut);
@@ -111,7 +111,7 @@ class Oppgave4Alternativ{
         }
         double Sum = Tall1+ Tall2+ Tall3;
         Double Gjennomsnitt = Sum / 3;
-        String Ut = "Summene av tallene "+Tall1+" , "+Tall2+" , "+Tall3+" er "+Sum+"\n"+
+        String Ut = "Summene av tallene "+Tall1+" + "+Tall2+" + "+Tall3+" er "+Sum+"\n"+
                 "Gjennomsnitte av tallene er "+Gjennomsnitt;
         System.out.print(Ut) ;
         showMessageDialog(null,Ut);

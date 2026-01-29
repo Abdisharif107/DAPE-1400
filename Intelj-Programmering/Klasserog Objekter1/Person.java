@@ -1,7 +1,9 @@
 package KlasserogObjekter1;
 
 public class Person {
-     public String Navn(String Fornavn, String Etternavn){
+    public String navn;
+
+    public String Navn(String Fornavn, String Etternavn){
          String Navn = Fornavn + Etternavn;
          return Navn;
      }
